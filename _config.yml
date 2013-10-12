@@ -5,6 +5,6 @@ author: Hamniba
 pygments: true
 safe: true
 auto: true
-
+paginate: 16
 #lsi: false
-#paginate: 16
+
