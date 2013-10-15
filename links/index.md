@@ -1,8 +1,8 @@
 ---
-title: links
+title: Links
 layout: page
 comments: yes
 ---
 
-待续。。
+Loading...
 

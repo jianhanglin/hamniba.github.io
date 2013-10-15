@@ -24,11 +24,11 @@ layout: default
 </span>
 <br />
 <span class="license">
-  Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA</a>
+  Published Under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
 </span>
 {% if page.categories %}
 <span class="categories">
-  in categories
+  In Categories
   {% for cat in page.categories %}
   <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
@@ -36,7 +36,7 @@ layout: default
 {% endif %}
 {% if page.tags %}
 <span class="tags">
-  tagged with 
+  Tagged with 
   {% for tag in page.tags %}
   <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
   {% endfor %}

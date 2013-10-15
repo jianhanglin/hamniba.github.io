@@ -1,11 +1,11 @@
 ---
-title: AboutMe
+title: About Me
 layout: page
 comments: no
 ---
 
-喜欢干净整洁的设计  
-微博控  
+	coder 
+  
 
 **声明：**  
 **本博客文章内容均为原创，转载请注明出处，禁止商业用途！**  
