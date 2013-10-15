@@ -24,13 +24,13 @@ layout: default
 </span>
 <br />
 <span class="license">
-  Published Under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+  Published Under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
 </span>
 {% if page.categories %}
 <span class="categories">
   In Categories
-  {% for cat in page.categories %}
-  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  {% for category in page.categories %}
+  <a href="/categories/#{{ category }}" title="{{ category }}">{{ category }}</a>&nbsp;
   {% endfor %}
 </span>
 {% endif %}
