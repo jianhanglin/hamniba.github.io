@@ -20,6 +20,3 @@ comments: no
 新浪微博: [汉尼八](http://weibo.com/hamniba)  
 
 github : [Hamniba](https://github.com/Hamniba)        
-
-----
-
