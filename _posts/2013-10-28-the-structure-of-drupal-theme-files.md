@@ -69,7 +69,7 @@ html.tpl.php文件body中的语句
 进行隐藏或显示。  
 
 ###field.tpl.php  
-与其他template files不同的是，即使没有自定义的field.tpl.php，Drupal也不会自动加载默认field.tpl.php，若要使用，得从modules/fields/templates拷贝至你的自定义Theme中:YOURTHEME/templates。
+与其他template files不同的是，即使没有自定义的field.tpl.php，Drupal也不会自动加载默认field.tpl.php，若要使用，得从modules/fields/templates拷贝至你的自定义Theme中:YOURTHEME/templates。  
 
 ###template.php  
 > "For all the conditional logic and data processing of the output, there is the template.php file."  
