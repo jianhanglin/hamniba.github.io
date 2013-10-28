@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal Theme的文件结构"
 description: "The structure of durpal theme files"
-category: "Drupal"
+category: Drupal
 tags: Drupal7 Theme
 ---
 
@@ -37,13 +37,18 @@ Drupal默认template files，比如 modules/system里的html.tpl.php; page.tpl.p
 ###html.tpl.php  
 这文件里面是一些基本的HTML结构，包含一些W3C规范和head信息，body就是一些变量信息。整个文件相当于只建好了一个Drupal站点的框架，站点的内容都由此文件里的变量完成。  
 变量在template.php文件里通过两个function进行处理。  
-	{% highlight php %}
-	function YOURTHEME_process_*();
-	function YOURTHEME_preprocess_*();
-	{% endhighlight %}
+	{% highlight php %}  
+	function YOURTHEME_process_*();  
+	function YOURTHEME_preprocess_*();  
+	{% endhighlight %}  
+
 ###page.tpl.php  
 此文件重点是处理一个HTML页面结构中的body部分，主要包含一些div tags and php code，php代码片段用于进行一些逻辑处理。  
-html.tpl.php文件body中的语句`{% highlight php %}<?php print $page; ?>{% endhighlight %}`，其中变量$page指的就是这个page.tpl.php文件中的内容。  
+html.tpl.php文件body中的语句  
+	{% highlight php %}  
+	<?php print $page; ?>  
+	{% endhighlight %}  
+其中变量$page指的就是这个page.tpl.php文件中的内容。  
 
 ###region.tpl.php  
 此文件重点是处理Drupal站点上region的显示方式。  
@@ -52,9 +57,9 @@ html.tpl.php文件body中的语句`{% highlight php %}<?php print $page; ?>{% en
 ###node.tpl.php  
 主要用于定义Drupal站点上node的显示方式，node里显示指定的`$content`。Drupal默认node.tpl.php位于modules/node。  
 对于特殊的两个node，  
-	{% highlight php %}
-	$content['comments']
-	$content['links']
+	{% highlight php %}  
+	$content['comments']  
+	$content['links']  
 	{% endhighlight %}  
 可以使用  
 	{% highlight php %}  
