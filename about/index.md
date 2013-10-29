@@ -8,7 +8,7 @@ comments: no
   
 <br/>
 
-####联系方式：        
+####Contact :        
 
 - 个人邮箱: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
 
@@ -25,3 +25,4 @@ comments: no
 ----
 **声明：**  
 **本博客文章内容均为原创，转载请注明出处，禁止商业用途！**  
+**Publish Under [BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)**  
