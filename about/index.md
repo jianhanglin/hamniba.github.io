@@ -10,11 +10,11 @@ comments: no
 
 ####联系方式：        
 
-个人邮箱: ![<img src="/media/images/gmail.png"></img>](mailto:hamniba8@gmail.com)     
+- 个人邮箱: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
 
-新浪微博: ![<img src="/media/images/weibo.png"></img>](http://weibo.com/hamniba)  
+- 新浪微博: [汉尼八](http://weibo.com/hamniba)  
 
-github : ![<img src="/media/images/github.png"></img>](https://github.com/Hamniba)        
+- github : [Hamniba](https://github.com/Hamniba)        
 
 
 <br/>
