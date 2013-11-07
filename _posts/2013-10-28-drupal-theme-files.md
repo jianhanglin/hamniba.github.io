@@ -13,6 +13,7 @@ tags: Drupal7 Theme
 默认主题Bartik的`theme.info`部分代码示例如下：
 
 	{% highlight php %}
+
 	name = Bartik
 	description = A flexible, recolorable theme with many regions.
 	package = Core
@@ -29,6 +30,7 @@ tags: Drupal7 Theme
 	regions[page_top] = Page top
 	regions[page_bottom] = Page bottom
 	regions[highlighted] = Highlighted
+
 	{% endhighlight %}
 ###Template files(.tpl.php)  
 > "These templates are used for the (x)HTML markup and PHP variables. In some situations they may output other types of data --xml, rss."  
