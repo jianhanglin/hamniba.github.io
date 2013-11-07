@@ -23,7 +23,7 @@ blockquote p{margin:0;padding:.5em 0;}
 .content{font-size:14px;line-height:24px;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
-#tag_cloud{margin-bottom: 1em;}
+#tag_cloud{margin-bottom: 1em; text-transform: capitalize;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
 .listing-item a{
@@ -41,10 +41,10 @@ nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercas
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
-h1{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
+h1{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:2.0em;color:#000;}
 h2{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
 h3{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
-h4{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
+h4{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.0em;color:#333;}
 pre,code{font-family:"Courier New",Menlo,"Andale Mono",Consolas,Monaco,monospace;font-size:13px;}
 code{background-color:#ffffff;}
 embed,object,iframe{display:block;margin:4px auto;}

@@ -3,8 +3,10 @@ title: About Me
 layout: page
 comments: no
 ---
+<br/>
 
-	coder 
+	Programmer | 
+	Learning: Drupal | Python | 
   
 <br/>
 
@@ -12,9 +14,9 @@ comments: no
 
 - 个人邮箱: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
 
-- 新浪微博: [汉尼八](http://weibo.com/hamniba)  
+- 新浪微博: [![汉尼八](/media/images/weibo.png)](http://weibo.com/hamniba)  
 
-- github : [Hamniba](https://github.com/Hamniba)        
+- github : [![Hamniba](/media/images/github.png)](https://github.com/Hamniba)        
 
 
 <br/>

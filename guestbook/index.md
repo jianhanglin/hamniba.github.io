@@ -3,8 +3,9 @@ layout: page
 title: Leave a message
 comments: yes
 ---
+<br/>
+我并不期待你看  
+但期待你在  
 
-轻轻的你来了  
-就不要轻轻的走  
- 
-：)
+我并不期待你回  
+但期待你赞
