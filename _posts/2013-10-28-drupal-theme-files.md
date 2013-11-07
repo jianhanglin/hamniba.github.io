@@ -13,7 +13,6 @@ tags: Drupal7 Theme
 默认主题Bartik的`theme.info`部分代码示例如下：
 
 	{% highlight php %}
-
 	name = Bartik
 	description = A flexible, recolorable theme with many regions.
 	package = Core
