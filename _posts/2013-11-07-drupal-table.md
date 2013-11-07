@@ -11,6 +11,7 @@ tags: Drupal7 Theme
 在Drupal核心的`theme.inc`里面`theme_table()`方法是如下定义的：  
 
 	{% highlight php %}
+	<?php
 	function theme_table($variables) {
 		$header = $variables['header'];
 		$rows = $variables['rows'];
@@ -20,6 +21,7 @@ tags: Drupal7 Theme
 		$sticky = $variables['sticky'];
 		$empty = $variables['empty'];
 		}
+	?>
 	{% endhighlight %}  
 你可以对这个`theme_HOOK()`方法用`theme('HOOK',$variables)`函数进行覆写，比如这里的`theme('table',$variables)`。  
 
@@ -29,6 +31,7 @@ tags: Drupal7 Theme
 `$variables`变量是一个数组,`$variables = array();`比如定义一个`$table`变量：
 
 	{% highlight php %}
+	<?php
 	$table = array(
         'header' => $header,
         'rows' => $rows,
@@ -39,6 +42,7 @@ tags: Drupal7 Theme
         'empty' => 'Do not have any rows here...',
             )
     );  
+	?>
 	{% endhighlight %}
 ###$header
 	$header = array();
@@ -47,6 +51,7 @@ tags: Drupal7 Theme
 * `'sort'`: 对table中的某一列进行排序`('asc' or 'desc')`升序或降序排列。  
 #####e.g.  
 		{% highlight php %}
+	<?php
 		$header = array(
         	array('data' => t('Name')),
         	array('data' => t('Age'), 'field' => 'age'),
@@ -54,6 +59,7 @@ tags: Drupal7 Theme
         	array('data' => t('Birth'), 'sort' => 'asc'),
         	array('data' => t('Description')),
     	);
+	?>
 		{% endhighlight %}
 
 ###$rows	
@@ -67,6 +73,7 @@ tags: Drupal7 Theme
 * 对于复杂的嵌套table,还可以分别对row的特定单元格指定你希望定义样式，比如row cell里嵌套`$header`。所以，每个单元格还可以独立设置它的`'data'`和`'header'`。  
 #####e.g.
 		{% highlight php %}
+	<?php
 		$rows = array(
             'data' => array(
                 $name,
@@ -76,6 +83,7 @@ tags: Drupal7 Theme
                 $description,
             )
 		);
+	?>
 		{% endhighlight %}
 
 ###'attribute'
@@ -100,6 +108,7 @@ table中行数(row)为零时显示的提示信息。
 最后在`$table`的结构定义好之后，就可以用`theme('HOOK',$variables)`这个方法调用显示：  
 
 	{% highlight php %}
+	<?php
 	$html = theme('table', array(
         'header' => $header,
         'rows' => $rows,
@@ -108,6 +117,7 @@ table中行数(row)为零时显示的提示信息。
         'empty' => 'Do not have any rows here...',
         )
     );
+	?>
 	{% endhighlight %}
 
 <br/>

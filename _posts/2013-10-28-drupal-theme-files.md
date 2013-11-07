@@ -13,6 +13,7 @@ tags: Drupal7 Theme
 默认主题Bartik的`theme.info`部分代码示例如下：
 
 	{% highlight php %}
+	<?php
 	name = Bartik
 	description = A flexible, recolorable theme with many regions.
 	package = Core
@@ -29,7 +30,7 @@ tags: Drupal7 Theme
 	regions[page_top] = Page top
 	regions[page_bottom] = Page bottom
 	regions[highlighted] = Highlighted
-
+	?>
 	{% endhighlight %}
 ###Template files(.tpl.php)  
 > "These templates are used for the (x)HTML markup and PHP variables. In some situations they may output other types of data --xml, rss."  
@@ -43,8 +44,10 @@ Drupal默认template files，比如 `modules/system`里的`html.tpl.php; page.tp
 变量在template.php文件里通过两个function进行处理。
 
 	{% highlight php %}  
+	<?php
 	function YOURTHEME_process_*();  
 	function YOURTHEME_preprocess_*();  
+	?>
 	{% endhighlight %}
 ###page.tpl.php  
 此文件重点是处理一个HTML页面结构中的body部分，主要包含一些`div tags and php code`，php代码片段用于进行一些逻辑处理。  
@@ -64,14 +67,18 @@ html.tpl.php文件body中的语句
 对于特殊的两个node，
 
 	{% highlight php %}  
+	<?php
 	$content['comments']  
 	$content['links']  
+	?>
 	{% endhighlight %}
 可以使用
 
 	{% highlight php %}  
+	<?php
 	function hide();  
 	print render();  
+	?>
 	{% endhighlight %}
 进行隐藏或显示。  
 
