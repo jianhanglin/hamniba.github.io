@@ -14,7 +14,7 @@ comments: no
 
 - Gmail: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
 - Weibo: [汉尼八](http://weibo.com/hamniba)  
-- Instagram: [Hamniba](http://instagram.com/hamniba)
+
 
 
 <br/>
