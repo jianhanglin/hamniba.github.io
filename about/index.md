@@ -12,8 +12,9 @@ comments: no
 
 ####Contact :        
 
-- 个人邮箱: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
-- 新浪微博: [汉尼八](http://weibo.com/hamniba)  
+- [![Gmail](/media/images/gmail.png)](hamniba8@gmail.com)     
+- [![Sina Weibo](/media/images/weibo.png)](http://weibo.com/hamniba)  
+- [![Instagram](/media/images/instagram.png)](http://instagram.com/hamniba)
         
 
 
