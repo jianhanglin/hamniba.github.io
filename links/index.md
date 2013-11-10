@@ -4,5 +4,9 @@ layout: page
 comments: yes
 ---
 
-Loading...
+#This page is a personal project to Collect Some Useful Links.
+<br/>
 
+
+Git & GitHub
+---
