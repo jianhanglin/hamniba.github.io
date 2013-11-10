@@ -12,9 +12,9 @@ comments: no
 
 ####Contact :        
 
-- [![Gmail](/media/images/gmail.png)](hamniba8@gmail.com)     
-- [![Sina Weibo](/media/images/weibo.png)](http://weibo.com/hamniba)  
-- [![Instagram](/media/images/instagram.png)](http://instagram.com/hamniba)
+- [![](/media/images/gmail.png)](hamniba8@gmail.com)     
+- [![](/media/images/weibo.png)](http://weibo.com/hamniba)  
+- [![](/media/images/instagram.png)](http://instagram.com/hamniba)
         
 
 
