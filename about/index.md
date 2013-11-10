@@ -12,10 +12,9 @@ comments: no
 
 ####Contact :        
 
-- [![](/media/images/gmail.png)](hamniba8@gmail.com)     
-- [![](/media/images/weibo.png)](http://weibo.com/hamniba)  
-- [![](/media/images/instagram.png)](http://instagram.com/hamniba)
-        
+- Gmail: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
+- Weibo: [汉尼八](http://weibo.com/hamniba)  
+- Instagram: [Hamniba](instagram.com/hamniba)
 
 
 <br/>
