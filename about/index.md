@@ -25,6 +25,6 @@ comments: no
 <br/>
 <br/>
 ----
-**声明：**  
-**本博客文章内容均为原创，转载请注明出处，禁止商业用途！**  
+**声明**  
+**本博客内容均为原创，如果觉得文章对你有所帮助，转载请署名和注明出处，禁止商业用途！**  
 **Publish Under [BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)**  
