@@ -6,7 +6,7 @@
 body{font-size:14px;word-spacing:1px;
 	margin-left:auto;
 margin-right:auto;
-	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;background-color:#ffffff;}
+	font-family:helvetica, arial, sans-serif,Verdana,"Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",sans-serif;color:#000000;background-color:#ffffff;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#dd0000;text-decoration:none;}
 a:hover{color:#000000;}
@@ -23,8 +23,32 @@ blockquote p{margin:0;padding:.5em 0;}
 .content{font-size:15px;line-height:24px;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
-#tag_cloud{margin-bottom: 1em; text-transform: uppercase;}
-#tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
+#cat_cloud{margin-bottom: 1em; text-transform: uppercase;}
+#cat_cloud a:hover{
+background-color: rgb(20, 167, 198);
+color: rgb(243, 241, 217);
+border: 2px solid rgb(20, 167, 198);
+text-decoration: none;}
+#tag_cloud{margin-bottom: 1em; }
+#tag_cloud a:hover{
+background-color: rgb(20, 167, 198);
+color: rgb(243, 241, 217);
+border: 2px solid rgb(20, 167, 198);
+text-decoration: none;}
+.post-tag{
+color: rgb(16, 135, 164);
+background-color: rgb(255, 255, 255);
+border: 2px solid rgb(20, 167, 198);
+padding: 3px 5px;
+border-radius: 7px 7px 7px 7px;
+margin: 2px 2px 2px 0px;
+text-decoration: none;
+font-size: 90%;
+line-height: 1.4;
+white-space: nowrap;
+display: inline-block;
+}
+a.post-tag{color: rgb(16, 135, 164);}
 .listing-item,.listing-seperator{list-style-type:none;}
 .listing-item a{
 	padding:.2em 1em;
@@ -32,7 +56,8 @@ blockquote p{margin:0;padding:.5em 0;}
 }
 
 .listing-item time{color:#999999;}
-.listing-seperator{font-weight:bold;text-transform: capitalize;}
+.listing-seperator-tag{font-weight:bold;}
+.listing-seperator-cat{font-weight:bold;text-transform: uppercase;}
 .meta{text-align:right;font-size:12px;}
 .pageNav{font-weight:bold;font-size:17px;}
 .pageNavInvalid{font-weight:bold;font-size:17px;color:#D0D0D0;}
@@ -41,10 +66,10 @@ nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercas
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
-h1{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:2.0em;color:#000;}
-h2{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
-h3{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
-h4{font-family:"Courier New",Monaco,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.0em;color:#333;}
+h1{font-family:helvetica,arial,sans-serif,"Hiragino Sans GB","Microsoft YaHei";font-size:1.6em;color:#000;}
+h2{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.4em;color:#111;}
+h3{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.2em;color:#222;}
+h4{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.0em;color:#333;}
 pre,code{font-family:"Courier New",Menlo,"Andale Mono",Consolas,Monaco,monospace;font-size:13px;}
 code{background-color:#ffffff;}
 embed,object,iframe{display:block;margin:4px auto;}
@@ -103,7 +128,7 @@ background-color:#468847;
 }
 
 .label-info {
-background-color:#3a87ad;
+background-color:rgb(20, 167, 198);
 }
 
 .paginator {
