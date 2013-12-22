@@ -3,18 +3,22 @@ title: About Me
 layout: page
 comments: no
 ---
+> "  我写作，不是为了名声，也不是为了特定的读者，我写作是为了光阴流逝使我心安。"      
+    <p align=right> —— 博尔赫斯    
+
 <br/>
 
 	Programmer | 
 	Learning: Drupal | 
   
 <br/>
+<br/>
 
-####CONTACT:        
+####CONTACT        
 
 - Gmail: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
 - Instagram: [Hamniba](http://instagram.com/hamniba)
-- Weibo: [汉尼八](http://weibo.com/hamniba) 
+
 
 
 
