@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About
 layout: page
 comments: no
 ---
@@ -9,7 +9,7 @@ comments: no
 <br/>
 
 	Programmer | 
-	Learning: Drupal | 
+	Learning: Drupal | Node.js
   
 <br/>
 <br/>
@@ -17,7 +17,7 @@ comments: no
 ####CONTACT        
 
 - Gmail: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
-- Instagram: [Hamniba](http://instagram.com/hamniba)
+- Instagram: [owencccccc](http://instagram.com/owencccccc)
 
 
 
