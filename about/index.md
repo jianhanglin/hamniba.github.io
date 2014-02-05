@@ -1,5 +1,5 @@
 ---
-title: About
+title: about
 layout: page
 comments: no
 ---
@@ -9,7 +9,7 @@ comments: no
 <br/>
 
 	Programmer | 
-	Learning: Drupal | Node.js
+	Drupal | Node.js
   
 <br/>
 <br/>
