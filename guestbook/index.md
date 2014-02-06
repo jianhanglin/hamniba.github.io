@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Leave a message
+title: 留言
 comments: yes
 ---
 <br/>
-Hi, 打个招呼吧... 
+Hi, 打个招呼吧 ...  ：) 

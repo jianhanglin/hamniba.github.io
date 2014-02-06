@@ -1,17 +1,19 @@
 ---
-title: Links
+title: 学习资料
 layout: page
 comments: yes
 ---
 <br/>
 
 
-###Git & GitHub
+###Git
 - [Pro Git](http://git-scm.com/book/)  这是Git官网上的学习教程，提供中文版
-
-<br/>
-
 
 ###PHP
 - [PHP之道](http://wulijun.github.io/php-the-right-way/) PHP: The Right Way 中文版  
 
+###Bootstrap
+- [Bootstrap中文文档](http://v3.bootcss.com/)
+
+###Node.js
+- [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
