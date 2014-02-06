@@ -6,6 +6,10 @@ category: Node.js
 tags: microblog
 ---
 <br/>
+
+![Microblog](./media/images/frontpage.png)
+
+
 前后花了大概一天半的时间从头到尾看完了《Node.js开发指南》([BYVoid](https://www.byvoid.com/)编著)。  
 看完这本书，就算是Node.js开发入门了，里面有个小型的Web项目练习，作者一步步讲解得很详细，从Node.js开发的基础，到Web开发领域的通用知识点，都作了详细介绍，
 照着这本书的流程包括项目实践走一遍下来肯定会收获不小。
