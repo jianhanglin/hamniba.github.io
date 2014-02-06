@@ -7,7 +7,7 @@ tags: microblog
 ---
 <br/>
 
-![Microblog](./media/images/frontpage.png)
+![Microblog](/media/images/frontpage.png)
 
 
 前后花了大概一天半的时间从头到尾看完了《Node.js开发指南》([BYVoid](https://www.byvoid.com/)编著)。  
