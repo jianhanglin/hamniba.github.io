@@ -121,6 +121,9 @@ table中行数(row)为零时显示的提示信息。
 	{% endhighlight %}
 
 <br/>
+这里我贴出一段代码，你可以看看生成表格的整个结构：
+
+- [Gist: build_table.php](https://gist.github.com/Hamniba/8862346)
 <br/>
 <br/>
 参考资料：
