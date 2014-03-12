@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
-body{font-size:14px;word-spacing:1px;
+body{font-size:20px;word-spacing:1px;
 	margin-left:auto;
 margin-right:auto;
 	font-family:helvetica, arial, sans-serif,Verdana,"Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",sans-serif;color:#000000;background-color:#ffffff;}
@@ -20,7 +20,7 @@ blockquote{display:block;text-align:justify;border-left:4px solid #ffffff;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
-.content{font-size:15px;line-height:24px;}
+.content{font-size:20px;line-height:35px;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 #cat_cloud{margin-bottom: 1em; text-transform: uppercase;}
@@ -66,10 +66,10 @@ nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercas
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
-h1{font-family:helvetica,arial,sans-serif,"Hiragino Sans GB","Microsoft YaHei";font-size:1.6em;color:#000;}
-h2{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.4em;color:#111;}
-h3{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.2em;color:#222;}
-h4{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.0em;color:#333;}
+h1{font-family:helvetica,arial,sans-serif,"Hiragino Sans GB";font-size:2rem;color:#000;}
+h2{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.6em;color:#111;}
+h3{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.4em;color:#222;}
+h4{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.2em;color:#333;}
 pre,code{font-family:"Courier New",Menlo,"Andale Mono",Consolas,Monaco,monospace;font-size:13px;}
 code{background-color:#ffffff;}
 embed,object,iframe{display:block;margin:4px auto;}
