@@ -8,15 +8,13 @@ comments: no
 
 <br/>
 
-	Programmer | 
-	Drupal | Node.js
   
 <br/>
 <br/>
 
 ####CONTACT        
 
-- Gmail: [hamniba8@gmail.com](mailto:hamniba8@gmail.com)     
+- Gmail: [hamniba8#gmail.com](mailto:hamniba8@gmail.com)     
 - Instagram: [owencccccc](http://instagram.com/owencccccc)
 
 
@@ -28,7 +26,6 @@ comments: no
 <br/>
 <br/>
 <br/>
-----
 **声明**  
 **本博客内容均为原创，如果觉得文章对你有所帮助，转载请署名和注明出处，禁止商业用途！**  
 **Publish Under [BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)**  
