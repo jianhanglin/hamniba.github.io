@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
-body{font-size:20px;word-spacing:1px;
+body{font-size:16px;word-spacing:1px;
 	margin-left:auto;
 margin-right:auto;
 	font-family:helvetica, arial, sans-serif,Verdana,"Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",sans-serif;color:#000000;background-color:#ffffff;}
@@ -20,7 +20,7 @@ blockquote{display:block;text-align:justify;border-left:4px solid #ffffff;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
-.content{font-size:20px;line-height:35px;}
+.content{font-size:16px;line-height:30px;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 #cat_cloud{margin-bottom: 1em; text-transform: uppercase;}
