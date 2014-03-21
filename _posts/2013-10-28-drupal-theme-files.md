@@ -3,7 +3,7 @@ layout: post
 title: "Drupal Theme的文件结构"
 description: "The structure of durpal theme files."
 category: Drupal
-tags: drupal-7 theme
+tags: drupal-7
 ---
 
 <br/>

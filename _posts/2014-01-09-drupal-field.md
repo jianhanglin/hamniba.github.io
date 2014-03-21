@@ -3,7 +3,7 @@ layout: post
 title: "Drupal网站性能问题"
 description: 
 category: Drupal
-tags: drupal-7 field
+tags: drupal-7
 ---
 <br/>
 

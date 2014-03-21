@@ -3,7 +3,7 @@ layout: post
 title: "用Drupal的方式写Table"
 description: "The function themem_table() of Drupal."
 category: Drupal
-tags: drupal-7 theme
+tags: drupal-7
 ---
 <br>
 要在Drupal里面写table可以有两种实现方式，一种是全部使用html标签，另一种是用drupal提供的`theme_table()`方法实现。  
