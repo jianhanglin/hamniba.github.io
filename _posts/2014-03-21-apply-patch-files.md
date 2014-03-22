@@ -5,10 +5,6 @@ description:
 category: Drupal
 tags: drupal-7
 ---
-<br/>
-#How to Apply patch files
-
-
 使用Drupal社区贡献的第三方Module出现Bug的时候，针对遇到的问题或Bug在该Module's issues页面里找到对应Bug的补丁文件，通常是 *.patch，将该文件下载下来放置在你需要修复的Module的根目录下。  
 然后在终端里面用patch命令执行补丁，patch命令是内置在Linux/Unix系统里面的。  
 
