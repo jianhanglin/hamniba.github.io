@@ -1,7 +1,7 @@
 ---
-title: 学习资料
+title: LINKS
 layout: page
-comments: yes
+comments: no
 ---
 <br/>
 

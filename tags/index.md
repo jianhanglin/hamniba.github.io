@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: TAGS
 layout: page
 ---
 
