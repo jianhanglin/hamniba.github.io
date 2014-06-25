@@ -1,8 +1,8 @@
 
 
-@import url(http://fonts.googleapis.com/css?family=Galdeano);
-@import url(http://fonts.googleapis.com/css?family=Electrolize);
-@import url(http://fonts.googleapis.com/css?family=Cuprum);
+@import url(http://fonts.useso.com/css?family=Galdeano);
+@import url(http://fonts.useso.com/css?family=Electrolize);
+@import url(http://fonts.useso.com/css?family=Cuprum);
 body{font-size:16px;word-spacing:1px;
 	margin-left:auto;
 margin-right:auto;
@@ -38,9 +38,9 @@ text-decoration: none;}
 .post-tag{
 color: rgb(16, 135, 164);
 background-color: rgb(255, 255, 255);
-border: 2px solid rgb(20, 167, 198);
+border: 1px solid rgb(20, 167, 198);
 padding: 3px 5px;
-border-radius: 7px 7px 7px 7px;
+border-radius: 4px;
 margin: 2px 2px 2px 0px;
 text-decoration: none;
 font-size: 90%;
@@ -62,7 +62,7 @@ a.post-tag{color: rgb(16, 135, 164);}
 .pageNav{font-weight:bold;font-size:17px;}
 .pageNavInvalid{font-weight:bold;font-size:17px;color:#D0D0D0;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
-nav{font-family:"Electrolize",sans-serif;font-size:0.7em;text-transform:uppercase;float:left;margin-left:-12em;width:9em;text-align:right;}
+nav{font-family:"Electrolize",sans-serif;font-size:1em;text-transform:uppercase;float:left;margin-left:-12em;width:9em;text-align:right;position:fixed;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
@@ -71,7 +71,7 @@ h2{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft
 h3{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.4em;color:#222;}
 h4{font-family:helvetica, arial, sans-serif,Monaco,"Hiragino Sans GB","Microsoft YaHei";font-size:1.2em;color:#333;}
 pre,code{font-family:"Courier New",Menlo,"Andale Mono",Consolas,Monaco,monospace;font-size:13px;}
-code{background-color:#ffffff;}
+code{background-color: #f8f8f8;border-color: #f7f7f7;border: 1px solid #ddd;text-shadow: 0 1px 0 #fff;padding:4px 10px;font-size:14px;line-height:19px;overflow:auto;border-radius: 3px;}
 embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 
