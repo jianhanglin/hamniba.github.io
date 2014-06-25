@@ -2,7 +2,7 @@ markdown: rdiscount
 permalink: /:year/:month/:day/:title/
 url: http://hamniba.github.io
 author: owen
-pygments: true
+highlighter: pygments
 safe: true
 auto: true
 paginate: 16
