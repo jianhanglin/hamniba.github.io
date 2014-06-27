@@ -3,8 +3,11 @@ title: ABOUT
 layout: page
 comments: no
 ---
-> "  我写作，不是为了名声，也不是为了特定的读者，我写作是为了光阴流逝使我心安。"      
-    <p align=right> —— 博尔赫斯
+<br/>
+< > with ❤ 
+
+[weibo](weibo.com/hamniba)
+
 
 
 
