@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>OWEN</title>
+    <title>Recommend</title>
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -16,11 +16,11 @@
     <meta name="description" content="">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="OWEN">
+    <meta name="twitter:title" content="Recommend">
     <meta name="twitter:description" content="">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="OWEN">
+    <meta property="og:title" content="Recommend">
     <meta property="og:description" content="">
 
     
@@ -77,9 +77,9 @@ var enable_pjax = true;
 
     <meta name="generator" content="Ghost 0.4" />
 <link rel="alternate" type="application/rss+xml" title="OWEN" href="rss/index.html">
-<link rel="canonical" href="http://my-ghost-blog.com/" />
+<link rel="canonical" href="http://my-ghost-blog.com/recommend/" />
   </head>
-  <body class="home-template">
+  <body class="post-template page">
 
     <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
 <nav tabindex="-1" class="drawer">
@@ -158,87 +158,82 @@ var enable_pjax = true;
           <div data-pjax-container class="content">
             
 
-<aside role="banner" class="cover">
-  <div data-load-image="/content/images/2014/Aug/Zebras.jpg" class="cover-image"></div>
-  <div class="cover-container">
-    
-    <h1 class="cover-title">OWEN</h1>
-    <p class="cover-description"></p>
-  </div>
-</aside>
-
-<section class="wrapper" tabindex="0">
+<section class="wrapper wrapper-post">
   <div class="wrapper-container">
-     
-
-    <section class="post-list">
+    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post post page">
       
-        <article itemscope itemtype="http://schema.org/BlogPosting"
-  role="article" class="post-item post">
-  <header class="post-item-header">
-    <h2 itemprop="name" class="post-item-title">
-      <a href="2014/08/01/initial-post-from-owen/index.html" itemprop="url" data-pjax title="Initial post from OWEN">
-        Initial post from OWEN
-      </a>
-    </h2>
-  </header>
-  <section itemprop="description" class="post-item-excerpt">
-    <p>Hello, everybody. my workflow: write post at local   cd blog folder and  buster generate --domain=http://127.0.0.1:2368 then you can preview at localhost:9000 use  buster preview buster deploy or push&hellip;</p>
-  </section>
-  <footer class="post-item-footer">
-    <ul class="post-item-meta-list">
-      <li class="post-item-meta-item">
-        <time datetime="2014-08-01" itemprop="datePublished">
-          a day ago
-        </time>
-      </li>
-      
-      <li class="post-item-meta-item">
-        <a href="2014/08/01/initial-post-from-owen/index.html#disqus_thread" data-pjax data-disqus-identifier="2">Comments</a>
-      </li>
-    </ul>
-  </footer>
-</article>
+        <section class="post-container">
+          <header class="post-header">
+            <h1 itemprop="name headline" class="post-title"><a href="recommend" itemprop="url" data-pjax title="Recommend">Recommend</a></h1>
+            
+            <!--h2 itemprop="about" class="post-subtitle"></h2-->
+          </header>
+          <aside class="post-side">
+            <div class="post-author">
+              
+                <a href="recommend" class="post-author-avatar">
+                  <img src="content/images/2014/Aug/tanxiang-1.jpg" alt="owen">
+                </a>
+              
+              <div class="post-author-info">
+                <a href="recommend" class="post-author-name">
+                  owen
+                </a>
+                <p class="post-author-bio">Developer Live in SuZhou, China.</p>
+              </div>
+            </div>
+          </aside>
+          <div itemprop="articleBody" class="post-body">
+            <h3 id="git">Git</h3>
 
-      
-        <article itemscope itemtype="http://schema.org/BlogPosting"
-  role="article" class="post-item post">
-  <header class="post-item-header">
-    <h2 itemprop="name" class="post-item-title">
-      <a href="2014/08/01/welcome-to-ghost/index.html" itemprop="url" data-pjax title="Welcome to Ghost">
-        Welcome to Ghost
-      </a>
-    </h2>
-  </header>
-  <section itemprop="description" class="post-item-excerpt">
-    <p>You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;your&hellip;</p>
-  </section>
-  <footer class="post-item-footer">
-    <ul class="post-item-meta-list">
-      <li class="post-item-meta-item">
-        <time datetime="2014-08-01" itemprop="datePublished">
-          a day ago
-        </time>
-      </li>
-      
-      <li class="post-item-meta-item">
-        <a href="2014/08/01/welcome-to-ghost/index.html#disqus_thread" data-pjax data-disqus-identifier="1">Comments</a>
-      </li>
-    </ul>
-  </footer>
-</article>
+<ul>
+<li><a href="http://git-scm.com/book/">Pro Git</a></li>
+</ul>
 
+<h3 id="bootstrap">Bootstrap</h3>
+
+<ul>
+<li><a href="http://v3.bootcss.com/">Bootstrap 中文文档</a></li>
+</ul>
+
+<h3 id="php">PHP</h3>
+
+<ul>
+<li><a href="http://wulijun.github.io/php-the-right-way/">PHP之道</a> PHP: The Right Way 中文版  </li>
+</ul>
+
+<h3 id="books">Books</h3>
+
+<ul>
+<li><a href="http://www.v2ex.com/rework">Rework</a> Rework中文版，<a href="http://www.olivida.com/">OLIVIDA</a>译</li>
+<li><a href="http://37signals.com/rework/">Rework</a> official PDF</li>
+</ul>
+          </div>
+          <footer class="post-footer">
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
+              
+                <a href="recommend" class="post-author-avatar">
+                  <img itemprop="image" src="content/images/2014/Aug/tanxiang-1.jpg" alt="owen">
+                </a>
+              
+              <div class="post-author-info">
+                <h4 class="post-footer-heading">Written By</h4>
+                <a href="recommend" itemprop="url" class="post-author-name">
+                  <span itemprop="name">owen</span>
+                </a>
+                <p itemprop="description" class="post-author-bio">Developer Live in SuZhou, China.</p>
+              </div>
+            </div>
+            <div class="post-social">
+              <h4 class="post-footer-heading">Spread the word</h4>
+              <a href="recommend#" data-action="share-twitter"><i class="fa fa-fw fa-lg fa-twitter"></i></a>
+              <a href="recommend#" data-action="share-facebook"><i class="fa fa-fw fa-lg fa-facebook"></i></a>
+              <a href="recommend#" data-action="share-gplus"><i class="fa fa-fw fa-lg fa-google-plus"></i></a>
+            </div>
+          </footer>
+        </section>
       
-    </section>
-
-    
-      <nav role="pagination" class="post-list-pagination">
-  
-  <span class="post-list-pagination-item post-list-pagination-item-current">Page 1 of 1</span>
-  
-</nav>
-
-    
+    </article>
 
     <footer role="contentinfo" class="footer">
   <p><small>© 2014. All Rights Reserved.</small></p>
